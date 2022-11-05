@@ -1,0 +1,34 @@
+site_name: LeetCode
+
+theme:
+  name: material
+  palette: 
+    scheme: slate
+    primary: teal
+    accent: orange
+  font:
+    text: Inter
+    code: JetBrains Mono
+  language: uz
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: datetime
+      fallback_to_build_date: true
+      enable_creation_date: false
+      enabled: true
+
+
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/webdastur
+      name: webdastur
+
+copyright: Copyright &copy; 2016 - 2022 Abdulaminkhon Khaydarov
+repo_url: https://github.com/webdastur/leetcode
+repo_name: webdastur/leetcode
