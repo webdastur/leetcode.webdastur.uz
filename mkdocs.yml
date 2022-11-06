@@ -72,6 +72,6 @@ nav:
   - Kirish: index.md
   - Array:
     - 🟢 Easy:
-        - 1920 - Build Array from Permutation: array/easy/1920.md
+        - 1920 - Build Array from Permutation: array/easy/1920-build-array-from-permutation.md
     - 🟠 Medium: ..
     - 🔴 Hard: ..
