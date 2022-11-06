@@ -5,7 +5,7 @@ site_url: https://leetcode.webdastur.uz
 
 theme:
   name: material
-  palette: 
+  palette:
     scheme: slate
     primary: teal
     accent: orange
@@ -60,19 +60,23 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.highlight:
       anchor_linenums: true
-      linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
 
 extra_css:
+  - stylesheets/termynal.css
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/termynal.js
+  - javascripts/custom.js
 
 nav:
   - Kirish: index.md
   - Array:
-    - 🟢 Easy:
-        - 1920 - Build Array from Permutation: array/easy/1920-build-array-from-permutation.md
-        - 1929 - Concatenation of Array: array/easy/1929-concatenation-of-array.md
-    - 🟠 Medium: ..
-    - 🔴 Hard: ..
+      - 🟢 Easy:
+          - 1920 - Build Array from Permutation: array/easy/1920-build-array-from-permutation.md
+          - 1929 - Concatenation of Array: array/easy/1929-concatenation-of-array.md
+      - 🟠 Medium: ..
+      - 🔴 Hard: ..

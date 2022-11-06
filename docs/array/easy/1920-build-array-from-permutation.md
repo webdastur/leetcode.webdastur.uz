@@ -16,25 +16,33 @@ A **zero-based permutation** `nums` is an array of **distinct** integers from `0
 
 ## :green_circle: **Misol 1**
 
-```text
-Input: nums = [0,2,1,5,3,4]
-Output: [0,1,2,4,5,3]
-Explanation: The array ans is built as follows: 
+<div class="termy">
+
+```console
+$ Input: nums = [0,2,1,5,3,4]
+$ Output: [0,1,2,4,5,3]
+$ Explanation: The array ans is built as follows: 
 ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]
     = [nums[0], nums[2], nums[1], nums[5], nums[3], nums[4]]
     = [0,1,2,4,5,3]
 ```
 
+</div>
+
 ## :green_circle: **Misol 2**
 
-```text
-Input: nums = [5,0,1,2,3,4]
-Output: [4,5,0,1,2,3]
-Explanation: The array ans is built as follows:
+<div class="termy">
+
+```console
+$ Input: nums = [5,0,1,2,3,4]
+$ Output: [4,5,0,1,2,3]
+$ Explanation: The array ans is built as follows:
 ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]], nums[nums[5]]]
     = [nums[5], nums[0], nums[1], nums[2], nums[3], nums[4]]
     = [4,5,0,1,2,3]
 ```
+
+</div>
 
 ## :red_circle: **Cheklovlar**
 
@@ -49,7 +57,7 @@ Agar yangi array yaratmay to'g'ridan to'g'ri `nums[i] = nums[nums[i]]` ga tengla
 :alarm_clock: **Time Complexity**: ==O(n)== <br>
 :package: **Space Complexity**: ==O(n)==
 
-```python
+```python linenums="1"
 # Author: Abdulaminkhon Khaydarov
 # Date: 30/10/22 
 # Problem URL: https://leetcode.com/problems/build-array-from-permutation/
@@ -86,7 +94,7 @@ Birinchi yechimda biz qo'shimcha `array` dan foydalandik. Buni qo'shimcha `array
 :alarm_clock: **Time Complexity**: ==O(n)== <br>
 :package: **Space Complexity**: ==O(1)==
 
-```python
+```python linenums="1"
 # Author: Abdulaminkhon Khaydarov
 # Date: 30/10/22 
 # Problem URL: https://leetcode.com/problems/build-array-from-permutation/

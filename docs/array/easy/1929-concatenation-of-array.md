@@ -22,23 +22,31 @@ Return the array `ans`.
 
 ## :green_circle: **Misol 1**
 
-```text
-Input: nums = [1,2,1]
-Output: [1,2,1,1,2,1]
-Explanation: The array ans is formed as follows:
+<div class="termy">
+
+```console
+$ Input: nums = [1,2,1]
+$ Output: [1,2,1,1,2,1]
+$ Explanation: The array ans is formed as follows:
 - ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
 - ans = [1,2,1,1,2,1]
 ```
 
+</div>
+
 ## :green_circle: **Misol 2**
 
-```text
-Input: nums = [1,3,2,1]
-Output: [1,3,2,1,1,3,2,1]
-Explanation: The array ans is formed as follows:
+<div class="termy">
+
+```console
+$ Input: nums = [1,3,2,1]
+$ Output: [1,3,2,1,1,3,2,1]
+$ Explanation: The array ans is formed as follows:
 - ans = [nums[0],nums[1],nums[2],nums[3],nums[0],nums[1],nums[2],nums[3]]
 - ans = [1,3,2,1,1,3,2,1]
 ```
+
+</div>
 
 ## :red_circle: **Cheklovlar**
 
@@ -53,7 +61,7 @@ Bizga `nums` ni uzunligi kerak bunga biz `n` o'zgaruvchisini yaratib `nums` ni u
 :alarm_clock: **Time Complexity**: ==O(n)== <br>
 :package: **Space Complexity**: ==O(2n)==
 
-```python
+```python linenums="1"
 # Author: Abdulaminkhon Khaydarov
 # Date: 02/11/22 
 # Problem URL: https://leetcode.com/problems/concatenation-of-array/
@@ -86,7 +94,7 @@ Pythonda `list` ni butun songa ko'paytirsa bo'ladi. Biz bu holatda `nums` ni `2`
 :alarm_clock: **Time Complexity**: ==O(n)== <br>
 :package: **Space Complexity**: ==O(2n)==
 
-```python
+```python linenums="1"
 # Author: Abdulaminkhon Khaydarov
 # Date: 02/11/22 
 # Problem URL: https://leetcode.com/problems/concatenation-of-array/
@@ -116,7 +124,7 @@ Pythonda `list` ni `list` ga qo'shsa bo'ladi. `nums + nums` ham bizga bir xil na
 :alarm_clock: **Time Complexity**: ==O(n)== <br>
 :package: **Space Complexity**: ==O(2n)==
 
-```python
+```python linenums="1"
 # Author: Abdulaminkhon Khaydarov
 # Date: 02/11/22 
 # Problem URL: https://leetcode.com/problems/concatenation-of-array/
