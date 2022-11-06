@@ -73,5 +73,6 @@ nav:
   - Array:
     - 🟢 Easy:
         - 1920 - Build Array from Permutation: array/easy/1920-build-array-from-permutation.md
+        - 1929 - Concatenation of Array: array/easy/1929-concatenation-of-array.md
     - 🟠 Medium: ..
     - 🔴 Hard: ..

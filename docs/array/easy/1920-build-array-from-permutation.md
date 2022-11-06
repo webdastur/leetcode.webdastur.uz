@@ -16,7 +16,7 @@ A **zero-based permutation** `nums` is an array of **distinct** integers from `0
 
 ## :green_circle: **Misol 1**
 
-```shell
+```text
 Input: nums = [0,2,1,5,3,4]
 Output: [0,1,2,4,5,3]
 Explanation: The array ans is built as follows: 
@@ -27,7 +27,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 
 ## :green_circle: **Misol 2**
 
-```shell
+```text
 Input: nums = [5,0,1,2,3,4]
 Output: [4,5,0,1,2,3]
 Explanation: The array ans is built as follows:
