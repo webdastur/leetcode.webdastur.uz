@@ -1,7 +1,7 @@
 ---
 hide:
     - toc
-description: LeetCode 1920 - Build Array from Permutation Javobi
+description: LeetCode 1929 - Concatenation of Array Javobi
 ---
 
 <iframe width="100%" height="450em" src="https://www.youtube.com/embed/5Reh8MMQY1M" title="LeetCode 1920 - masala. Build Array from Permutation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
