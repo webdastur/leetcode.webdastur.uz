@@ -1,0 +1,7 @@
+.md-typeset p > code {
+    color: rgb(211, 61, 61);
+}
+
+.md-typeset li > code {
+    color: rgb(211, 61, 61);
+}

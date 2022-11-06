@@ -1,4 +1,7 @@
 site_name: LeetCode
+site_author: Abdulaminkhon Khaydarov
+site_description: LeetCode Masalalar Javoblari
+site_url: https://leetcode.webdastur.uz
 
 theme:
   name: material
@@ -12,6 +15,12 @@ theme:
   language: uz
   icon:
     repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - content.code.annotate
+    - navigation.instant
+    - navigation.top
 
 plugins:
   - search
@@ -28,7 +37,41 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/webdastur
       name: webdastur
+    - icon: fontawesome/brands/youtube
+      link: https://bit.ly/AlexTechUz
+      name: AlexTechUz
+
 
 copyright: Copyright &copy; 2016 - 2022 Abdulaminkhon Khaydarov
 repo_url: https://github.com/webdastur/leetcode
 repo_name: webdastur/leetcode
+edit_uri: ""
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Kirish: index.md
+  - Array:
+    - 🟢 Easy:
+        - 1920 - Build Array from Permutation: array/easy/1920.md
+    - 🟠 Medium: ..
+    - 🔴 Hard: ..
